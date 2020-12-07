@@ -68,7 +68,7 @@ const raindrops = function (num) {
   return (num % 3 === 0 ? "Pling" : num % 5 === 0 ? "Plang" : num % 7 === 0 ? "Plong" : num += "" );
 };
 
-console.log(raindrops(12));
+console.log(raindrops(1));
 
 
 // And there you have it, First time I've ever done that on my own, it also totally makes sense to me.. !!!!! Fuck Yeah !!!!
