@@ -1,0 +1,10 @@
+* {
+    background-color: lightgreen;
+}
+
+.container {
+    border: 2px solid orange;
+    padding: 30px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
