@@ -1,0 +1,19 @@
+* {
+    background: lavender;
+}
+
+.container {
+    margin-left: 20%;
+    margin-right: 20%;
+    border: 2px solid blue;
+    padding: 20px;
+}
+
+.red {
+    color: red;
+}
+
+.form {
+    margin-left: 20%;
+    margin-top: 20px;
+}
