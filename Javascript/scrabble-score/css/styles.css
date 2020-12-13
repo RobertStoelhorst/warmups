@@ -1,0 +1,19 @@
+* {
+    background-color: bisque;
+}
+
+.container {
+    margin-left: 10%;
+    margin-right: 10%;
+    border: 2px solid grey;
+    padding: 30px;
+    padding-top: 0px;
+}
+
+h1 {
+    color: blueviolet;
+}
+
+#image {
+    max-width: 600px;
+}
