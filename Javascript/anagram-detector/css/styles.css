@@ -1,0 +1,11 @@
+* {
+    background-color: bisque;
+}
+
+.container {
+    text-align: center;
+    margin-left: 15%;
+    margin-right: 15%;
+    border: 2px dotted blueviolet;
+    padding: 25px;
+}
