@@ -1,0 +1,16 @@
+#colorInputText {
+    padding: 5px 10px 5px 10px;
+    
+    /* border-radius: 0.2em; */
+}
+
+#colorButton {
+    color: white;
+    background-color: #0076f7;
+    border: none;
+    border-radius: 0.2em;
+    padding: 5px 10px 5px 10px;
+    margin-left: 99px;
+    margin-top: 10px;
+    box-shadow: none;
+}
