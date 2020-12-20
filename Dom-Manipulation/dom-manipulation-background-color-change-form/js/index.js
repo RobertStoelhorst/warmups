@@ -13,6 +13,7 @@ $(document).ready(function () {
               $('#colorInputText').css('background-color', '#fbacac')
               $('#colorInputText').css('border-radius', '0.3em')
           } else {
+            console.log(value);
               $('body').css('background-color', value)
               $('#colorButton').css('background-color', '#0076f7')
               $('#colorInputText').css('background-color', 'white')
