@@ -1,0 +1,22 @@
+* {
+    background-color: darkviolet;
+    color: whitesmoke;
+}
+
+.container {
+    position: absolute;
+    top: 0; bottom: 0; left: 0; right: 0;
+    margin: auto;
+    width: 50%;
+    height: 50%;
+    padding: 25px;
+    border: 3px dashed whitesmoke;
+}
+.container:hover {
+    background-color: teal;
+    transform: scale(1.1);
+}
+
+h1 {
+    text-decoration: underline;
+}
