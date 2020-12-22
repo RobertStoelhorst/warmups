@@ -47,8 +47,13 @@ $(document).ready(function() {
 const multiArraySum = function () {
     let sum = 0;
 
+    // loop arguments and assign to let variable 'i'
     for(let i = 0; i < arguments.length; i++) {
+        console.log(arguments[i]);
+        // loop arguments and assign to let variable 'j'
         for(let j = 0; j < arguments[i].length; j++) {
+
+            //  use plus equals operator to add values from both arrays
             sum += arguments[i][j];
         }
     }
