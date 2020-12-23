@@ -14,6 +14,7 @@ $(document).ready(function(){
     };
 
     // const spaceAge = (ageInSeconds) => {
+        // 365.25 * 24 * 60 * 60 is the calculation to get earths ageInSeconds
     //     let ageInEarthYears = ageInSeconds / 31557600;
     //     // ageInEarthYears = ageInEarthYears.toFixed(2);
     //     console.log(ageInEarthYears)
