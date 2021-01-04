@@ -15,6 +15,8 @@
 
 # My soloution
 
+# run "ruby raindrops.rb" in terminal to play
+
 # =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
 
 
