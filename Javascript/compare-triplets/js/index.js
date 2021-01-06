@@ -58,13 +58,17 @@ const compareTriplets = function (a, b) {
     count.push(aliceScore);
     count.push(bobScore);
     // console.log(count); 
-    // return count;
-    return "Total Score Comparison " + count;
+    return count;
+    // return "Total Score Comparison " + count; // this could be used to display the result with more context
 
 };
 
 console.log("Compare Triplets Function")
-// console.log(compareTriplets([1, 2, 3], [3, 2, 1]));
-console.log(compareTriplets([5, 6, 7, 12, 3], [3, 6, 10, 3, 7]));
-// console.log(compareTriplets([17, 28, 30], [101, 16, 8]));
+console.log(compareTriplets([5, 6, 7], [3, 6, 10])); // this will pass and return [1, 1]
+
+console.log(compareTriplets([17, 28, 30], [99, 16, 8])); // this will pass and return [2, 1]
+
+// console.log(compareTriplets([1, 2, 3], [3, 2, 1, 5])); // this will fail as it contains an uneven amount of scores
+
+// console.log(compareTriplets([17, 28, 30], [101, 16, 8])); // this will fail as it contains a score higher than 100
 
