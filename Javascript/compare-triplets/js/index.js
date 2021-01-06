@@ -42,12 +42,16 @@ const compareTriplets = function (a, b) {
         if (a.length != b.length) {
             alert("Uneven test scores");
             return;
+            // This above conditional was not required in the test but I felt it was relevant
         } else if (a[i] > 100 || b[i] > 100) {
             alert("High test score has resulted in a fail");
             return;
+             // This above conditional was required in the test but I felt it was relevant to add an alert and exit function 
         } else if (a[i] > b[i]) {
+            //  add to alice score by 1 point if condition passes
             aliceScore ++
         } else if (a[i] < b[i]) {
+            //  add to bob score by 1 point if condition passes
             bobScore ++
         }       
     };            
