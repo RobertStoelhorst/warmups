@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Compare Triplets</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/index.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>HackingHacking</h1>
+        <br>
+        <p>Alice and Bob each created one problem for HackerRank. A reviewer rates the two challenges, awarding points on a scale from 1 to 100 for three categories: problem clarity, originality, and difficulty.
+
+            The rating for Alice's challenge is the triplet a = (a[0], a[1], a[2]), and the rating for Bob's challenge is the triplet b = (b[0], b[1], b[2]).
+            
+            The task is to find their comparison points by comparing a[0] with b[0], a[1] with b[1], and a[2] with b[2].
+        </p>
+            <ul>
+            <li>If a[i] > b[i], then Alice is awarded 1 point.</li>
+            <li>If a[i] < b[i], then Bob is awarded 1 point.</li>
+            <li>If a[i] = b[i], then neither person receives a point.</li>
+        </ul>
+        <p>
+            Comparison points is the total points a person earned.
+            
+            Given a and b, determine their respective comparison points.</p>
+            <br>
+            <h3>Example</h3>
+            <br>
+            <p>a = [1, 2, 3]</p>
+            <p>b = [3, 2, 1]</p>
+            <br>
+            <ul>
+                <li>For elements *0*, Bob is awarded a point because a[0] .</li>
+                <li>For the equal elements a[1] and b[1], no points are earned.</li>
+                <li>Finally, for elements 2, a[2] > b[2] so Alice receives a point.</li>
+            </ul>
+            <p>The return array is [1, 1] with Alice's score first and Bob's second.</p>
+            <br>
+            <h3>Function Description</h3>
+            <br>
+            <p>Complete the function compareTriplets in the editor below.</p>
+            <p>compareTriplets has the following parameter(s):</p>
+            <br>
+            <ul>
+                <li>int a[3]: Alice's challenge rating</li>
+                <li>int b[3]: Bob's challenge rating</li>
+            </ul>
+            <br>
+            <h3>Return</h3>
+            <br>
+            <ul>
+                <li>int[2]: Alice's score is in the first position, and Bob's score is in the second.</li>
+            </ul>
+            <br>
+            <h3>Input Format</h3>
+            <br>
+            <p>The first line contains 3 space-separated integers, a[0], a[1], and a[2], the respective values in triplet a.</p>
+            <p>The second line contains 3 space-separated integers, b[0], b[1], and b[2], the respective values in triplet b.</p>
+            <br>
+            <h3>Constraints</h3>
+            <br>
+            <ul>
+                <li>1 ≤ a[i] ≤ 100</li>
+                <li>1 ≤ b[i] ≤ 100</li>
+            </ul>
+            <br>
+            <h3>Sample Input 0</h3>
+            <br>
+            <em class="box">5 6 7</em>
+            <br>
+            <br>
+            <em class="box">3 6 10</em>
+            <br>
+            <h3>Sample Output 0</h3>
+            <br>
+            <em class="box">1 1</em>
+            <br>
+            <h3>Explanation 0</h3>
+            <br>
+            <p>in this example:</p>
+            <ul>
+                <li>a = (a[0],a[1],a[2]) = (5, 6, 7)</li>
+                <li>b = (b[0],b[1],b[2]) = (3, 6, 10)</li>
+            </ul>
+            <p>Now, let's compare each individual score:</p>
+            <ul>
+            <li>a[0] > b[0], so Alice receives 1 point.</li>
+            <li>a[1] = b[1], so nobody receives a point.</li>
+            <li>a[2] < b[2], so Bob receives 1 point.</li>
+        </ul>
+        <p>Alice's comparison score is 1, and Bobs comparison score is 1, Thus we return <em>array[1, 1].</em></p>
+    </div>
+</body>
+</html>
