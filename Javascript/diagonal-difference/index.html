@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diagonal Difference</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/index.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Diagonal Difference</h1>
+        <p>Given a square matrix, calculate the absolute difference between the sums of its diagonals.</p>
+        <p>For example, the square matrix <em>arr</em> is shown below:</p>
+        <p>[[1, 2, 3],</p>
+        <p>[4, 5, 6],</p>
+        <p>[9, 8, 9]]</p>
+        <p>The left-to-right diagonal = 1 + 5 + 9 = 15. The right to left diagonal = 3 + 5 + 9 = 17. Their absolute difference is |15 17| = 2.</p>
+        <h3>Function Description</h3>
+        <p>Complete the <em>diagonalDifference</em> function in the editor below.
+
+            diagonalDifference takes the following parameter:</p>
+            <ul>
+                <li>int arr[n][m]: an array of integers</li>
+            </ul>
+            <h3>Return</h3>
+            <ul>
+                <li>int: the absolute diagonal difference</li>
+            </ul>
+            <h3>Input Format</h3>
+            <p>The first line contains a single integer, <em>n</em> , the number of rows and columns in the square matrix <em>arr</em>.</p>
+            <p>Each of the next <em>n</em> lines describes a row, <em>arr[i]</em>, and consists of <em>n</em> space-separated integers <em>arr[i][j]</em>.</p>
+            <h3>Constraints</h3>
+            <ul>
+                <li>100 < <em>arr[i][j]</em> < 100</li>
+            </ul>
+            <h3>Output Format</h3>
+            <p>Return the absolute difference between the sums of the matrix's two diagonals as a single integer.</p>
+            <h3>Sample Input</h3>
+            <p>(3,</p>
+            <p>[[11, 2, 4],</p>
+            <p>[4, 5, 6],</p>
+            <p>[10, 8, -12]] );</p>
+            <h3>Sample Output</h3>
+            <p>15</p>
+            <h3>Explanation</h3>
+            <p>The primary diagonal is:</p>
+            <p>11</p>
+            <p>----- 5</p>
+            <p>------  (-12)</p>
+            <p>Sum across the primary diagonal: 11 + 5 - 12 = 4
+
+                The secondary diagonal is:</p>
+            <p>-------- 4</p>    
+            <p>---- 5</p>    
+            <p>10</p>    
+            <p>Sum across the secondary diagonal: 4 + 5 + 10 = 19
+                Difference: |4 - 19| = 15</p>
+                <span><b>Note:</b> |x| is the <em>absolute value</em> of x</span>
+    </div>
+</body>
+</html>
