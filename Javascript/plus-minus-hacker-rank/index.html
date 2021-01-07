@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plus Minus</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/index.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Plus Minus</h1>
+        <p>Given an array of integers, calculate the ratios of its elements that are positive, negative, and zero. Print the decimal value of each fraction on a new line with  places after the decimal.</p>
+        <p><b>Note:</b>This challenge introduces precision problems. The test cases are scaled to six decimal places, though answers with absolute error of up to <b>10<sup>4</sup></b> are acceptable.</p>
+        <h3>Example</h3>
+        <p><em>arr</em>= [1, 1, 0, -1, -1]</p>
+        <p>There are <em>n = 5</em> elements, two positive, two negative and one zero. Their ratios are &frac25; = 0.400000, &frac25; = 0.400000 and &frac15; = 0.200000. Results are printed as:</p>
+        <p>0.400000</p>
+        <p>0.400000</p>
+        <p>0.200000</p>
+        <h3>Function Description</h3>    
+        <p>Complete the plusMinus function in the editor below.
+            plusMinus has the following parameter(s):</p>
+        <ul>
+            <li>int arr[n]: an array of integers</li>
+        </ul>
+        <h3>Print</h3>
+        <p>Print the ratios of positive, negative and zero values in the array. Each value should be printed on a separate line with 6 digits after the decimal. The function should not return a value.</p>
+        <h3>Input Format</h3>
+        <p>The first line contains an integer, <em><b>n</b></em>, the size of the array.
+            The second line contains <em><b>n</b></em> space-separated integers that describe <b><em>arr[n]</em></b>.</p>
+            <h3>Constraints</h3>
+            <p>0 < <em>n</em> < 100</p>
+            <p>-100 < <em>arr[i]</em> < 100</p>
+            <h3>Output Format</h3>
+            <p><b>Print</b>the following 3 lines, each to 6 decimals:</p>
+            <ol>
+                <li>proportion of positive values</li>
+                <li>proportion of negative values</li>
+                <li>proportion of zeros</li>
+            </ol>
+            <h3>Sample Output</h3>
+            <p>0.500000</p>
+            <p>0.333333</p>
+            <p>0.166667</p>
+            <h3>Explanation</h3>
+            <p>There are 3 positive numbers, 2 negative numbers, and 1 zero in the array.</p>
+            <p>The proportions of occurrence are positive: <sup>3</sup>&frasl;<sub>6</sub> = 0.500000, negative: <sup>2</sup>&frasl;<sub>6</sub> = 0.333333 and</p>
+            <p>zeros: &frac16; = 0.166667.</p>
+    </div>
+    
+</body>
+</html>
