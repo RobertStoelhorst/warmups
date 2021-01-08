@@ -22,4 +22,5 @@ function staircase(n) {
   }
 staircase(6)
 
-// console.log(" ".repeat(1) + "#".repeat(6));
+// console.log(" ".repeat(1) + "#".repeat(6)); // mucking around here,
+//  trying to replicate reprinting a console.log on multiple lines.
