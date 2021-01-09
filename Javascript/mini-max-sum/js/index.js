@@ -21,9 +21,22 @@ const miniMaxSum = function (arr, n) {
     console.log(mini + "", max + "");
 };
 
-// miniMaxSum([1, 2, 3, 4, 5], 4);
+// =-=---=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+// found this nice looking solution on stack but it has bugs
+
+function miniMaxSumStack(arr) {
+    let sum = arr.reduce((a, b) => a + b);
+    let maxVal = Math.max(...arr);
+    let minVal = Math.min(...arr);
+    console.log((sum - maxVal) + ' ' + (sum - minVal));
+}
+
+miniMaxSum([1, 2, 3, 4, 5], 4);
 miniMaxSum([1, 2, 3, 5, 4, 1, 4, 5, 5, 5], 4); 
-miniMaxSum([1, 2, 3, 5, 4, 1, 4, 5, 5, 5], 5); 
+
+miniMaxSum([1, 2, 3, 5, 4, 1, 4, 5, 5, 5], 5);
+
+miniMaxSumStack([1, 2, 3, 5, 4, 1, 4, 5, 5, 5], 5); 
 
 //  note: console.log/print outside the for loop function for a destructive awnser 
 //  rather than printing inside the for loop function see line 19 which is commented out
