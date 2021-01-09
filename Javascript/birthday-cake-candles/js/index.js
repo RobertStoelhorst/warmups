@@ -34,7 +34,7 @@ function birthdayCakeCandles(n, arr) {
 
 
 // =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
-// If we use two loops it will pass but i'm not happy with this function
+// If we use two loops it will pass but i'm not happy with this functions time complecity
 
 // function birthdayCakeCandles(n, candles) {
 //     let max = 0;
