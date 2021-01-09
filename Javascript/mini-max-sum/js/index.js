@@ -33,9 +33,9 @@ function miniMaxSumStack(arr) {
 
 miniMaxSum([1, 2, 3, 4, 5], 4);
 miniMaxSum([1, 2, 3, 5, 4, 1, 4, 5, 5, 5], 4); 
-
 miniMaxSum([1, 2, 3, 5, 4, 1, 4, 5, 5, 5], 5);
 
+// =-=---=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
 miniMaxSumStack([1, 2, 3, 5, 4, 1, 4, 5, 5, 5], 5); 
 
 //  note: console.log/print outside the for loop function for a destructive awnser 
