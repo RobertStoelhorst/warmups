@@ -6,7 +6,8 @@ const miniMaxSum = function (arr, n) {
     // declare variables to add mini and max sums into
     let mini = 0, max = 0; 
     // now as a test case we will use array sort that way the only combo of numbers that sum to the
-    // highest amount will be the last n amount of indexes of the array.
+    // value passed in as argument n will be the first n value of indexes of the array, we will use array .reverse()
+    // later to get the highest value
     arr.sort();
     // loop first 4 integers for mini then reverse() arr and loop first 4 for max
     for (let i = 0; i < n; i++) {
