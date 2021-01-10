@@ -23,3 +23,16 @@ const fizzBuzz = function (n) {
 }; 
 
 fizzBuzz(100);
+
+
+//=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+//  here we have it as a ternary 
+
+// const fizzBuzz = function (n) {
+
+//     for (var i = 1; i <= 100; i++) {
+//         var f = i % 3 == 0, b = i % 5 == 0;
+//         console.log(f ? b ? "FizzBuzz" : "Fizz" : b ? "Buzz" : i);
+//     };
+// };
+//     fizzBuzz(100);
