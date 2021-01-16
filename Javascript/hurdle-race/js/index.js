@@ -5,7 +5,7 @@ console.log("The Hurdle Race");
 // will be the last position in the "(array)"
 // if it is we will return 0
 // else tallest hurdle number minus k is the result.
-// no for loop required just make a few variables
+// no for loop required just sort and make a few variables
 //
 const hurdleRace = function (k, height) {
   height.sort();
