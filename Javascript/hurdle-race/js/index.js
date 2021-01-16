@@ -10,10 +10,10 @@ console.log("The Hurdle Race");
 const hurdleRace = function (k, height) {
   height.sort();
   //   console.log(height);
-  let n = height.length;
+  let n = height.length - 1;
   //   console.log("n", n);
   //   console.log("k", k);
-  let tallestHurdle = height[n - 1];
+  let tallestHurdle = height[n];
   //   console.log("tallest hurdle", tallestHurdle);
   if (k > tallestHurdle) {
     return 0;
@@ -23,3 +23,20 @@ const hurdleRace = function (k, height) {
 };
 
 console.log(hurdleRace(4, [1, 6, 3, 5, 2]));
+
+// =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+// two test cases fail but the following
+// code will pass all test cases
+
+// function hurdleRace(k, height) {
+//   let heightSort = height.sort(function(a, b) {
+//     return a - b;
+//   });
+
+//   if(heightSort[heightSort.length -1] > k){
+//     return heightSort[heightSort.length -1] - k;
+//   }else{
+//    return 0;
+//   }
+// }
