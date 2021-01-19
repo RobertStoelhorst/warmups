@@ -29,6 +29,7 @@ const romanNumeral = function (num) {
   //   loop over object
   for (let i of Object.keys(roman)) {
     let q = Math.floor(num / roman[i]);
+    // console.log(q);
     num -= q * roman[i];
     str += i.repeat(q);
   }
