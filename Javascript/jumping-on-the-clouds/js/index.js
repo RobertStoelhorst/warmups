@@ -31,8 +31,6 @@ cloudJump(7, [0, 0, 1, 0, 0, 1, 0]);
 // was reading the setup for this test but it wasn't
 // that hard in the end
 
-// it has not passed all test cases so back to thedrawing board
-
 // =-=-=-=-=-=-=-=-=-=-=-==-=-=-=-=-=-=-=-=-=-
 // credit to Artem Bozhko for this solution I found on stack
 
