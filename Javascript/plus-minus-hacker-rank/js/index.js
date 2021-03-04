@@ -25,4 +25,6 @@ const plusMinus = function (num, arr) {
  console.log((zeros / arr.length).toFixed(6));
 };
 
+
+
 plusMinus(6, [-4, 3, -9, 0, 4, 1]);

@@ -17,21 +17,5 @@ const subArray = (s, d, m) => {
   console.log(solutions);
 };
 
-// function getWays(squares, total, window) {
-//   total = parseInt(total);
-//   window = parseInt(window);
-//   var solutions = 0;
-//   for (var i = 0; i <= squares.length - window; i++) {
-//     var sum = 0;
-//     for (var x = 0; x < window; x++) {
-//       sum += squares[i + x];
-//     }
-//     if (sum == total) {
-//       solutions++;
-//     }
-//   }
-//   console.log(solutions);
-// }
-
 subArray([2, 2, 1, 3, 2], 4, 2);
 // console.log(subArray([2, 2, 1, 3, 2], 4, 2));
