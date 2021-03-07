@@ -13,3 +13,7 @@ catAndMouse = (x, y, z) => {
 
 console.log(catAndMouse(1, 2, 3));
 console.log(catAndMouse(1, 3, 2));
+
+//  x = Cat A
+//  y = Cat B
+//  z = Mouse C
