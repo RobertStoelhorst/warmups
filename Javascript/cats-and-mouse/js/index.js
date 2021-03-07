@@ -2,7 +2,9 @@ console.log("Cats and a Mouse");
 
 catAndMouse = (x, y, z) => {
   const catA = Math.abs(x - z);
+  //   console.log(catA);
   const catB = Math.abs(y - z);
+  //   console.log(catB);
   if (catB > catA) {
     return "Cat A";
   } else if (catB < catA) {
