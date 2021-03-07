@@ -13,7 +13,7 @@ gradingStudents = (grades) => {
 
   //   =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
   // Solution 2
-  //   var index = 0;
+  //   let index = 0;
   //   while (index < grades.length) {
   //     if (grades[index] % 5 >= 3 && grades[index] >= 38) {
   //       grades[index] = grades[index] - (grades[index] % 5) + 5;
