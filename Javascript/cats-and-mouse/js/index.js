@@ -19,3 +19,6 @@ console.log(catAndMouse(1, 3, 2));
 //  x = Cat A
 //  y = Cat B
 //  z = Mouse C
+
+// Math.abs(valX - valY) returns the absolute value of valY - valX
+// so deduct valX - (from) valY
