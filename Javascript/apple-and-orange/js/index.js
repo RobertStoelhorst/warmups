@@ -18,11 +18,11 @@ countApplesAndOranges = (s, t, a, b, apples, oranges) => {
   for (let i = 0; i < l; i++) {
     if (a + apples[i] >= s && a + apples[i] <= t) {
       appleCount++;
-      //   console.log(appleCount);
+      //   console.log(appleCount); expected 1
     }
     if (b + oranges[i] >= s && b + oranges[i] <= t) {
       orangeCount++;
-      //   console.log(orangeCount);
+      //   console.log(orangeCount); expected 1
     }
   }
   console.log(appleCount);
