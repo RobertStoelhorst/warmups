@@ -13,8 +13,10 @@ console.log("Apples and Oranges");
 countApplesAndOranges = (s, t, a, b, apples, oranges) => {
   let appleCount = 0,
     orangeCount = 0;
-  let l = b + Math.max(...oranges); // this sets a loop length to use. we set length as the maximum distance any orange falls in the positive range. it seemed to be more efficient than creating two loops for apples and oranges..?
-  //   console.log(l);
+  let l = b + Math.max(...oranges); // this sets a loop length to use. we set length as the maximum distance any orange falls in the positive range.
+  // it seemed to be more efficient than creating two loops for apples and oranges..? but this does loop 20 times as a result of the arguments versus
+  // two different loops of apples.length = 3 and oranges.length = 2
+  console.log(l);
   for (let i = 0; i < l; i++) {
     if (a + apples[i] >= s && a + apples[i] <= t) {
       appleCount++;
@@ -28,5 +30,26 @@ countApplesAndOranges = (s, t, a, b, apples, oranges) => {
   console.log(appleCount);
   console.log(orangeCount);
 };
+
+countApplesAndOranges(7, 11, 5, 15, [-2, 2, 1], [5, -6]);
+
+// =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+function countApplesAndOranges(s, t, a, b, apples, oranges) {
+  let appleCount = 0;
+  let orangeCount = 0;
+  for (let i = 0; i < apples.length; i++) {
+    if (a + apples[i] >= s && a + apples[i] <= t) {
+      appleCount++;
+    }
+  }
+  for (let j = 0; j < oranges.length; j++) {
+    if (b + oranges[j] <= t && b + oranges[j] >= s) {
+      orangeCount++;
+    }
+  }
+  console.log(appleCount);
+  console.log(orangeCount);
+}
 
 countApplesAndOranges(7, 11, 5, 15, [-2, 2, 1], [5, -6]);
