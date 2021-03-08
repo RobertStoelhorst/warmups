@@ -13,7 +13,7 @@ console.log("Apples and Oranges");
 countApplesAndOranges = (s, t, a, b, apples, oranges) => {
   let appleCount = 0,
     orangeCount = 0;
-  let l = b + Math.max(...oranges);
+  let l = b + Math.max(...oranges); // this sets a loop length to use. we set length as the maximum distance any orange falls in the positive range. it seemed to be more efficient than creating two loops for apples and oranges..?
   //   console.log(l);
   for (let i = 0; i < l; i++) {
     if (a + apples[i] >= s && a + apples[i] <= t) {
