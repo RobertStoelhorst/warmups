@@ -72,3 +72,39 @@ console.log(raindrops(1));
 
 
 // And there you have it, First time I've ever done that on my own, it also totally makes sense to me.. !!!!! Fuck Yeah !!!!
+// =-=--==-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=--==-=-=-
+
+// fizzBuzz = (n) => {
+
+//   for (let i = 1; i < n; i++) {
+//       if ([i] % 15 == 0) {
+//           console.log("FizzBuzz");
+//           // return "FizzBuzz";
+//       } else if ([i] % 3 == 0) {
+//           console.log("Fizz");
+//           // return "Fizz";
+//       } else if ([i] % 5 == 0) {
+//           console.log("Buzz");
+//           // return "Buzz"
+//       } else {
+//           console.log(i);
+//           // return [i];
+//       }
+//   }
+// }
+
+// fizzBuzz(15);
+
+// =-=--==-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=--==-=-=-
+
+// fizzBuzz = (n) => {
+
+//   for (let i = 1; i <= n; i++) {
+//     let f = i % 3 == 0, b = i % 5 == 0;
+//     console.log(f ? b ? "FizzBuzz" : "Fizz" : b ? "Buzz" : i);
+//   }
+// }
+
+// fizzBuzz(15);
+
+// =-=--==-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=--==-=-=-
