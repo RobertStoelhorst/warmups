@@ -5,21 +5,21 @@ create a function that will some numbers passed in as arguments. */
 
 // =--=-=-=--==-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
 
-sumNum = (...nums) => {
-    sum = 0;
-    nums.forEach(value => {
-        sum += value
-    }) 
-console.log(sum);
-}
+// sumNum = (...nums) => {
+//     sum = 0;
+//     nums.forEach(value => {
+//         sum += value
+//     }) 
+// console.log(sum);
+// }
 
-sumNum(1, 2, 3)
+// sumNum(1, 2, 3)
 
 // =--=-=-=--==-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
 
-sumNum = (...nums) => {
-    const reducer = (a, b) => a + b;
-    console.log(nums.reduce(reducer));
-}
+// sumNum = (...nums) => {
+//     const reducer = (a, b) => a + b;
+//     console.log(nums.reduce(reducer));
+// }
 
-sumNum(1, 2, 3);
+// sumNum(1, 2, 3);

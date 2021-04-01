@@ -8,5 +8,6 @@ kangaroo = (x1, v1, x2, v2) => {
   }
 };
 
+console.log(kangaroo(1, 3, 1, 2));
 console.log(kangaroo(1, 2, 1, 2));
 // kangaroo(1, 2, 1, 2);

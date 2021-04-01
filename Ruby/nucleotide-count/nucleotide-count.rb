@@ -59,7 +59,7 @@ def count_nucleotides
           count["Unknown"] += 1
         end
     end
-  
+
     count.each do |key, value|
         puts "#{key}: #{value}"
     end
@@ -71,5 +71,5 @@ end
 # print "Enter string: "
 
 # user_input = gets.chomp
-  
-count_nucleotides
+
+count_nucleotides 
