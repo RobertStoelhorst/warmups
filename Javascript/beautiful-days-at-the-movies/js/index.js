@@ -62,3 +62,21 @@ function beautifulDays(i, j, k) {
 }
 
 console.log(beautifulDays(20, 23, 6));
+
+// =-=-=-=-=-=-==-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+// Another solution
+
+function beautifulDays(i, j, k) {
+  let beautiful = [];
+  for (let start = i; start <= j; start++) {
+    let numString = start + "";
+    let reverse = numString.split("").reverse().join("");
+    if ((start - reverse * 1) % k === 0) {
+      beautiful.push(start);
+    }
+  }
+  return beautiful.length;
+}
+
+console.log(beautifulDays(20, 23, 6));
