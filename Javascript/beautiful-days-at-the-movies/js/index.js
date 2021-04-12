@@ -23,10 +23,10 @@ const reversedNum = (num, k) => {
   }
   // console.log(num);
   // console.log("reversed", revNumsArray);
-  return divideAndCompare(num, revNumsArray, k);
+  return deductAndDivide(num, revNumsArray, k);
 };
 
-const divideAndCompare = (arr1, arr2, divisor) => {
+const deductAndDivide = (arr1, arr2, divisor) => {
   let total = [],
     days = [];
   for (let i = 0; i < arr1.length; i++) {
@@ -44,3 +44,20 @@ console.log(beautifulDays(20, 23, 6));
 // beautifulDays(20, 23, 6);
 
 // =-=-=-=-=-=-==-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+// A far more elegant solution here WOW !
+
+function beautifulDays(i, j, k) {
+  let count = 0;
+
+  for (let x = i; x <= j; x++) {
+    let y = x.toString().split("").reverse().join("");
+    let sol = Math.abs((x - y) / k);
+    if (Number.isInteger(sol)) {
+      count += 1;
+    }
+  }
+  return count;
+}
+
+console.log(beautifulDays(20, 23, 6));
