@@ -26,13 +26,14 @@ const reversedNum = (num, k) => {
   return deductAndDivide(num, revNumsArray, k);
 };
 
-const deductAndDivide = (arr1, arr2, divisor) => {
+const deductAndDivide = (arr1, arr2, k) => {
   let total = [],
     days = [];
+  k;
   for (let i = 0; i < arr1.length; i++) {
     total.push(arr1[i] - arr2[i]);
 
-    if (total[i] % divisor == 0) {
+    if (total[i] % k == 0) {
       days.push(total[i]);
     }
   }
