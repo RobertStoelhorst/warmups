@@ -1,0 +1,38 @@
+body {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 18px;
+  background-color: whitesmoke;
+}
+
+.container {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  max-width: 1000px;
+}
+
+h1 {
+  text-align: center;
+  color: blueviolet;
+}
+.form {
+  display: flex;
+  /* margin: 0 auto; */
+  justify-content: center;
+}
+
+.jsonOutput,
+label,
+input {
+  display: block;
+  margin: 10px 0px 10px 0px;
+}
+
+#input-material:hover {
+  background-color: rgb(212, 252, 214);
+}
+
+#submit {
+  background-color: aqua;
+}
